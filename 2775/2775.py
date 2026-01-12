@@ -10,8 +10,9 @@ for i in range(T):
     for j in range(1,k+1): #1,2, ... k k층만큼 반복하기
         for y in range(1,n): #floor_zero의 인덱스
             floor_zero[y]+=floor_zero[y-1]
-        print(floor_zero[-1])
+    print(floor_zero[-1])
 
 
     
+
 
